@@ -1,0 +1,20 @@
+{
+  "name": "community-garden",
+  "private": true,
+  "description": "One garden that everyone shares. Plant a flower a day and come back to see it grow.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://orbworlds.com/orb/community-garden",
+  "scripts": {
+    "start": "node orb-kit/bin/orb.mjs dev .",
+    "share": "node orb-kit/bin/orb.mjs share",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "three": "^0.186.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
